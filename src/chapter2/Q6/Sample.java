@@ -18,5 +18,9 @@ public class Sample {
         // <>ジェネリクスは何もしてされない場合は<Object>となる。
         var d = new ArrayList<>();
         System.out.println(d.getClass().getSimpleName());
+
+        // varはローカル変数の宣言時のみ使用可能
+        // コンパイル字に型推論が行われる。
+
     }
 }
